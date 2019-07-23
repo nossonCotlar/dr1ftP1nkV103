@@ -3,12 +3,8 @@
 
 #include <avr/pgmspace.h> // In order not to run out of memory, the frames are stored in program storage, not RAM. 
 //Therefor, follow proper notation when using variables. Look in tab "ref" 
-
 //positive - top to bottom
-const int row[] = {21, 20, 19, 18, 17, 
-  16, 15, 14, 2, 3, 
-  4, 5, 6, 7, 8, 
-  9, 10, 11, 12, 13};
+const int row[] = {21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2};
 //Negative - Left to right, viewed from outside
 const int col[] = {22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 
 33, 34, 35, 36, 37, 38, 39, 40, 41};
@@ -108,8 +104,8 @@ void setup() {
 
 void loop() {
 //ya know, loop and stuff
-booing();
-booming();
+//booming();
+//booming();
 
 eNH();
 purim();
@@ -128,7 +124,7 @@ question();
 question();
 blinking();
 blinking();
-licking();
+licking(); 
 devil();
 DOS();
 error();

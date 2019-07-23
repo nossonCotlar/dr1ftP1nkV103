@@ -2090,6 +2090,7 @@ for(int load = 0; load < 400; load++) {
 scan(45);
 }
 
+/*
 const int booming() {
 for(int load = 0; load < 400; load++) {
   frame[load] = pgm_read_word( &boom0[load] );
@@ -2120,3 +2121,4 @@ for(int load = 0; load < 400; load++) {
 }
 scan(7);
 }
+*/
